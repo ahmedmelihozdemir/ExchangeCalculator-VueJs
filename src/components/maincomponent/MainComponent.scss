@@ -1,0 +1,116 @@
+h1 {
+  margin: 5px 0 15px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  /* color: rgba(168, 107, 228, 0.665); */
+  color: #2e92d5;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(218, 107, 228, 0.972);
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.calculator {
+  margin: 5px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .calculator-el {
+    padding: 2px;
+    /* margin: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      font-family: "Courier New", Courier, monospace;
+      display: inline-block;
+      vertical-align: top;
+      border: 1px solid #cccccc;
+      background-color: rgba(168, 107, 228, 0.665);
+      color: #185b88;
+      line-height: 30px;
+      height: 30px;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input {
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+      &::selection {
+        background: rgba(136, 136, 118, 0.418);
+      }
+      font-family: "Courier New", Courier, monospace;
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      border: 1px solid #cccccc;
+      &:focus {
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.btn {
+  border: none;
+}
+.btn-turn {
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  border: none;
+  color: rgb(242, 221, 221);
+  &:active {
+    background-color: #2e92d5;
+  }
+}
+.btn-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  border-radius: 20px;
+  background-color: #2e92d5;
+  border: none;
+  color: rgb(242, 221, 221);
+  &:active {
+    background-color: rebeccapurple;
+  }
+}
+.form-select {
+  &::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  &::-webkit-scrollbar-track {
+    height: 20px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(67, 133, 198);
+    outline: 1px solid rgb(67, 133, 198);
+    border-radius: 5px;
+  }
+}
+/* body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  height: 20px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
