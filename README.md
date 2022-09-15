@@ -1,4 +1,5 @@
 # vue2-exchange-rate-app
+This application calculates the exchange rate.
 
 ## Project setup
 ```
