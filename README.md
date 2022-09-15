@@ -1,4 +1,4 @@
-# vue-exchange-calculator
+# vue2-exchange-rate-app
 
 ## Project setup
 ```

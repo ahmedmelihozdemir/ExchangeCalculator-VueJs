@@ -1,0 +1,76 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.con-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  .calculator {
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .date{
+      font: bolder 1.2rem Arial, Helvetica, sans-serif;
+      padding: 10px;
+      border: 1px solid rebeccapurple;
+      border-radius: 5px;
+      box-shadow: 0 0 5px 0 rebeccapurple;
+    }
+  }
+}
+.cal-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  .calculator-el {
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn-turn {
+      font-size: 2rem;
+      margin: 0 10px;
+      border: 1px solid black;
+      border-radius: 50%;
+      box-shadow: 0 0 5px 0 black;
+
+    }
+    .btn-switch {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid black;
+      box-shadow: 0 0 5px 0 black;
+
+      &:active {
+        background-color: rebeccapurple;
+      }
+    }
+  }
+}
+
+.form-select {
+  &::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  &::-webkit-scrollbar-track {
+    height: 20px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: slateblue;
+    outline: 1px solid slateblue;
+    border-radius: 2px;
+  }
+}
